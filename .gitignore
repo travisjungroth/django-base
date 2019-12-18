@@ -1,0 +1,10 @@
+staticfiles/*
+!staticfiles/.keep
+.idea
+.env
+*__pycache__*
+.cache
+.coverage
+todo.txt
+htmlcov
+*.sqlite

@@ -1,0 +1,23 @@
+[run]
+omit =
+    */wsgi.py
+    */asgi.py
+    */apps.py
+    */settings.py
+    */manage.py
+    */urls.py
+    test_*
+    */test_*
+    */factories.py
+    */migrations/*
+    */admin.py
+    conftest.py
+    */conftest.py
+
+[report]
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    pragma: no cover
+    raise AssertionError
+    raise NotImplementedError
+    def __repr__
