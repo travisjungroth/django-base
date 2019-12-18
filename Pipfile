@@ -3,10 +3,12 @@ url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[requires]
+python_version = "3.8"
+
 [dev-packages]
 
 [packages]
-
 "dj-database-url" = "*"
 django = "*"
 "django-allauth" = "*"
