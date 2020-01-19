@@ -3,6 +3,7 @@ from pytest import mark
 
 
 def test_true():
+    """When you want a test that definitely should pass"""
     assert True
 
 
