@@ -33,9 +33,6 @@ jobs: # A basic unit of work in a run
             - "/usr/local/lib/python3.8/site-packages"
       - run:
           command: |
-            pipenv run pytest --cov-report xml --cov=.
+            pipenv run pytest --cov-report xml --cov=. --junitxml=test_results.xml
       - store_test_results: # Upload test results for display in Test Summary: https://circleci.com/docs/2.0/collect-test-data/
-          path: coverage.xml
-      - store_artifacts: # Upload test summary for display in Artifacts: https://circleci.com/docs/2.0/artifacts/
-          path: coverage.xml
-          destination: tr1
+          path: test_results.xml
