@@ -1,12 +1,12 @@
 [![CircleCI](https://circleci.com/gh/travisjungroth/django-base.svg?style=svg)](https://circleci.com/gh/travisjungroth/django-base)
 
 ### Using
-1. Update the Python version in _this project_
-2. Run pipenv lock
-3. Pull in changes
-4. Clone
-5. Change the name in app.json
-6. Change the badges
+1.  Update the Python version in _this project_
+2.  Run pipenv lock
+3.  Pull in changes
+4.  Clone
+5.  Change the name in app.json
+6.  Change the badges
 
 ### Setup
 1.  Install postgres
