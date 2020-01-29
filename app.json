@@ -15,18 +15,6 @@
   "addons": [
     "heroku-postgresql"
   ],
-  "environments": {
-      "test": {
-        "scripts": {
-          "test": "pytest --reuse-db"
-        },
-        "env":{
-          "DJANGO_SECRET_KEY": {
-            "generator": "secret"
-          }
-        }
-      }
-  },
   "buildpacks": [
     {
       "url": "heroku/python"
