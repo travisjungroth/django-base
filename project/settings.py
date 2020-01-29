@@ -1,9 +1,12 @@
+from os import path
+
 import environ
 
 
 ROOT = environ.Path(__file__).path('../' * 2)
 ENV = environ.Env(DJANGO_DEBUG=(bool, False), )
-environ.Env.read_env(ROOT('.env'))
+if path.isfile(ROOT('.env')):
+    environ.Env.read_env(ROOT('.env'))
 
 SITE_ROOT = ROOT()
 
