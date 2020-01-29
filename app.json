@@ -10,6 +10,10 @@
     "CI": {
       "description": "Set to true if this is a CI environment. Handled by default on Heroku.",
       "required": false
+    },
+    "CODACY_PROJECT_TOKEN": {
+      "description": "Token to export from the CI server to Codacy.",
+      "required": false
     }
   },
   "addons": [
