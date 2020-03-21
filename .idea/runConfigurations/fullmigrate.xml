@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="fullmigrate" type="ShConfigurationType">
-    <option name="SCRIPT_PATH" value="$PROJECT_DIR$/fullmigrate.sh" />
+    <option name="SCRIPT_PATH" value="$PROJECT_DIR$/scripts/fullmigrate.sh" />
     <option name="SCRIPT_OPTIONS" value="" />
     <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     <option name="INTERPRETER_PATH" value="/bin/bash" />
