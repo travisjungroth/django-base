@@ -7,16 +7,16 @@ name = "pypi"
 python_version = "3.8.1"
 
 [dev-packages]
+"codacy-coverage" = "*"
+pytest = "*"
+"pytest-cov" = "*"
+"pytest-django" = "*"
 
 [packages]
-"codacy-coverage" = "*"
 "dj-database-url" = "*"
 django = "*"
 "django-allauth" = "*"
 "django-environ" = "*"
 gunicorn = "*"
 "psycopg2-binary" = "*"
-pytest = "*"
-"pytest-cov" = "*"
-"pytest-django" = "*"
 whitenoise = "*"

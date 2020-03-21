@@ -2,11 +2,15 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fb61ec135c25490ab0caa3c3b6fd25e0)](https://www.codacy.com/manual/travisjungroth/django-base?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=travisjungroth/django-base&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/fb61ec135c25490ab0caa3c3b6fd25e0)](https://www.codacy.com/manual/travisjungroth/django-base?utm_source=github.com&utm_medium=referral&utm_content=travisjungroth/django-base&utm_campaign=Badge_Coverage)
 ### Using
-1.  Change the name in app.json
-2.  Change the badges
-3.  Change the project directory (if you want)
-4.  Delete these instructions from the readme
-5.  Make a PR for any changes you had to make
+1.  Update the Python version in _this project_
+2.  Run pipenv update --dev
+3.  Pull in changes
+4.  Clone
+5.  Change the name in app.json
+6.  Change the badges
+7.  Change the project directory (if you want)
+8.  Delete these instructions from the readme
+9.  Make a PR for any improvements
 
 ### Setup
 1.  Install postgres
