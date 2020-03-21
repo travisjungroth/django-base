@@ -13,13 +13,9 @@
 9.  Make a PR for any improvements
 
 ### Setup
-Install postgres with brew
-    
-    scripts/createdb.sh
-    
-Set up the .env file (refer to app.json)  
-
-    pipenv install --dev  
+Install postgres and pipenv if you haven't
+Run scripts/setup.sh from the base directory of the project.
+Run pipenv install --dev  
 
 ### Tests
 #### Running    
