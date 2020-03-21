@@ -1,7 +1,7 @@
 staticfiles/*
 !staticfiles/.keep
 .idea
-!.idea/runConfigurations
+!.idea/runConfigurations/*
 .env
 *__pycache__*
 .cache
