@@ -13,10 +13,22 @@
 9.  Make a PR for any improvements
 
 ### Setup
-1.  Install postgres
-2.  Create a new postgres database and user (must be superuser)
-3.  Set up the .env file (refer to app.json)
-4.  Use pipenv
+Install postgres (probably with brew)  
+Create a new postgres database and user  
+
+    psql
+    CREATE DATABASE <DB_NAME>;
+    CREATE USER <USER_NAME> WITH PASSWORD 'password';
+    ALTER ROLE <USER_NAME> SET client_encoding TO 'utf8';
+    ALTER ROLE <USER_NAME> SET default_transaction_isolation TO 'read committed';
+    ALTER ROLE <USER_NAME> SET timezone TO 'UTC';
+    GRANT ALL PRIVILEGES ON DATABASE <DB_NAME> TO <USER_NAME>;
+    ALTER USER <USER_NAME> CREATEDB;
+    \q
+    
+Set up the .env file (refer to app.json)  
+
+    pipenv install --dev  
 
 ### Tests
 #### Running    
