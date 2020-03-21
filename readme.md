@@ -13,22 +13,11 @@
 9.  Make a PR for any improvements
 
 ### Setup
-Install postgres (probably with brew)  
-Create a new postgres database and user  
-
-    psql
-    CREATE DATABASE <DB_NAME>;
-    CREATE USER <USER_NAME> WITH PASSWORD <PASSWORD>;
-    ALTER ROLE <USER_NAME> SET client_encoding TO 'utf8';
-    ALTER ROLE <USER_NAME> SET default_transaction_isolation TO 'read committed';
-    ALTER ROLE <USER_NAME> SET timezone TO 'UTC';
-    GRANT ALL PRIVILEGES ON DATABASE <DB_NAME> TO <USER_NAME>;
-    ALTER USER <USER_NAME> CREATEDB;
-    \q
+Install postgres with brew
+    
+    scripts/createdb.sh
     
 Set up the .env file (refer to app.json)  
-
-    DATABASE_URL=postgres://<DB_USER>:<PASSWORD>@localhost:5432/<DB_NAME>
 
     pipenv install --dev  
 
