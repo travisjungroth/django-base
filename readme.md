@@ -18,7 +18,7 @@ Create a new postgres database and user
 
     psql
     CREATE DATABASE <DB_NAME>;
-    CREATE USER <USER_NAME> WITH PASSWORD 'password';
+    CREATE USER <USER_NAME> WITH PASSWORD <PASSWORD>;
     ALTER ROLE <USER_NAME> SET client_encoding TO 'utf8';
     ALTER ROLE <USER_NAME> SET default_transaction_isolation TO 'read committed';
     ALTER ROLE <USER_NAME> SET timezone TO 'UTC';
@@ -27,6 +27,8 @@ Create a new postgres database and user
     \q
     
 Set up the .env file (refer to app.json)  
+
+    DATABASE_URL=postgres://<DB_USER>:<PASSWORD>@localhost:5432/<DB_NAME>
 
     pipenv install --dev  
 
