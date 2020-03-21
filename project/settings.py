@@ -94,6 +94,8 @@ USE_TZ = True
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
 
+# These are weirdly reversed because it makes the IDE sorta happier.
+# /static/whatever looks in the static directory, which is where the precompiled files live.
 STATIC_ROOT = ROOT('staticfiles')
 STATICFILES_DIRS = ['static']
 STATIC_URL = '/static/'
