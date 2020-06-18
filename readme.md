@@ -1,6 +1,6 @@
 ### Copying
 
-Watch this neat [setup video](https://www.loom.com/share/b3c2fc86e09a4aa9b0c57fea09b6d87a) or follow the steps below.
+Watch this neat [setup video](https://www.loom.com/share/43730f87071445de99bf1582fe8d19eb) or follow the steps below.
 
 1. [Create your own repo from this template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 2. [Clone your repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). ([Better method](https://www.jetbrains.com/help/pycharm/manage-projects-hosted-on-github.html#clone-from-GitHub) for PyCharm users). 
