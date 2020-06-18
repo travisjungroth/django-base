@@ -10,8 +10,8 @@
 9.  Make a PR for any improvements
 
 ### Setup
-Install postgres and pipenv if you haven't
-Run scripts/setup.sh from the base directory of the project.
+Install postgres and pipenv if you haven't    
+Run scripts/setup.sh from the base directory of the project.    
 Run pipenv install --dev  
 
 ### Tests
