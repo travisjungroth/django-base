@@ -24,7 +24,7 @@ Run pipenv install --dev
     
 #### Recreate the database (runs migrations)
 
-    pytest --create-db test_basics.py::test_database
+    pytest --create-db
 
 ### Server
 #### Development
