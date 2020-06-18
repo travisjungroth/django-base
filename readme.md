@@ -1,13 +1,13 @@
 ### Using
-1.  Update the Python version in _this project_
-2.  Run pipenv update --dev
-3.  Pull in changes
-4.  Clone
-5.  Change the name in app.json
-6.  Change the badges
-7.  Change the project directory (if you want)
-8.  Delete these instructions from the readme
-9.  Make a PR for any improvements
+1. Fork this project.
+2. Clone your project.
+3. If there's a new stable Python version: Update it in Pipfile, runtime.txt and config.yml. 
+4. Run `pipenv update --dev`
+5. Commit.
+6. Open a PR to this repo.
+7. Change the projectname directory.
+8. Find and replace "projectname" for the new name.
+9. Delete these instructions from the readme.
 
 ### Setup
 Install postgres and pipenv if you haven't    
