@@ -1,4 +1,7 @@
 ### Copying
+
+Watch this neat [setup video](https://www.loom.com/share/b3c2fc86e09a4aa9b0c57fea09b6d87a) or follow the steps below.
+
 1. [Create your own repo from this template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 2. [Clone your repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository). ([Better method](https://www.jetbrains.com/help/pycharm/manage-projects-hosted-on-github.html#clone-from-GitHub) for PyCharm users). 
 3. Change the projectname directory to your project name.
