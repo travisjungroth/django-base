@@ -8,6 +8,7 @@
 7. Change the projectname directory.
 8. Find and replace "projectname" for the new name.
 9. Delete these instructions from the readme.
+10. Set up CircleCI and Codecov through their web apps.
 
 ### Setup
 Install postgres and pipenv if you haven't    
