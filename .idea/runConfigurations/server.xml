@@ -8,7 +8,7 @@
       <env name="DJANGO_SETTINGS_MODULE" value="projectname.settings" />
       <env name="DJANGO_DEBUG" value="True" />
     </envs>
-    <option name="SDK_HOME" value="" />
+    <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
     <option name="WORKING_DIRECTORY" value="" />
     <option name="IS_MODULE_SDK" value="true" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
