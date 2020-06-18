@@ -1,6 +1,6 @@
 ### Copying
-1. `git clone https://github.com/travisjungroth/django-base.git YOURPROJECTNAME`
-2. `cd YOURPROJECTNAME`
+1. Make and enter the directory where you want your project to live.
+2. `git clone https://github.com/travisjungroth/django-base.git .`
 3. `rm -rf .git`
 4. `git init .`
 5. Find and replace "projectname" to your project name.
