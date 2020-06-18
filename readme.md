@@ -7,11 +7,12 @@ Watch this neat [setup video](https://www.loom.com/share/b3c2fc86e09a4aa9b0c57fe
 3. Change the projectname directory to your project name.
 4. Find and replace "projectname" to your project name.
 5. If the version of Python in `runtime.txt` isn't the latest stable, search and replace it for the new one.
-6. Set up your Pipenv environment if it isn't already.
-7. `pipenv update --dev`
-8. Set up CircleCI and Codecov through their web apps.
-9. Delete these copying instructions from the readme.
-10. Commit the files and push.
+6. Create an empty .venv directory.
+7. Set up your Pipenv environment.
+8. `pipenv update --dev`
+9. Set up Codecov and CircleCI through their web apps.
+10. Delete these copying instructions from the readme.
+11. Commit the files and push.
 
 ### Setup
 Install postgres and pipenv if you haven't    
