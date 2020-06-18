@@ -11,5 +11,6 @@ omit =
     */settings.py
     */manage.py
     */admin.py
+    */apps.py
     .venv/*
     scripts/*
