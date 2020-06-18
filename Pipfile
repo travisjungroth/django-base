@@ -14,7 +14,6 @@ pytest = "*"
 [packages]
 "dj-database-url" = "*"
 django = "*"
-"django-allauth" = "*"
 "django-environ" = "*"
 gunicorn = "*"
 "psycopg2-binary" = "*"
