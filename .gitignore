@@ -9,3 +9,5 @@ staticfiles/*
 todo.txt
 htmlcov
 *.sqlite
+.venv/*
+!.venv/.keep
