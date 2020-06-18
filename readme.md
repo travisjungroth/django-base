@@ -3,6 +3,7 @@
 2. `git clone https://github.com/travisjungroth/django-base.git .`
 3. `rm -rf .git`
 4. `git init .`
+5. Change the projectname directory to your project name.
 5. Find and replace "projectname" to your project name.
 6. If the version of Python in `runtime.txt` isn't the latest stable, search and replace it for the new one.
 7. Set up your Pipenv environment.
