@@ -1,19 +1,21 @@
-### Using
-1. Fork this project.
-2. Clone your project.
-3. If there's a new stable Python version: Update it in Pipfile, runtime.txt and config.yml. 
-4. Run `pipenv update --dev`
-5. Commit.
-6. Open a PR to this repo.
-7. Change the projectname directory.
-8. Find and replace "projectname" for the new name.
-9. Delete these instructions from the readme.
-10. Set up CircleCI and Codecov through their web apps.
+### Copying
+1. `git clone https://github.com/travisjungroth/django-base.git YOURPROJECTNAME`
+2. `cd YOURPROJECTNAME`
+3. `rm -rf .git`
+4. `git init .`
+5. Find and replace "projectname" to your project name.
+6. If the version of Python in `runtime.txt` isn't the latest stable, search and replace it for the new one.
+7. Set up your Pipenv environment.
+8. `pipenv update --dev`
+9. Set up CircleCI and Codecov through their web apps.
+10. Delete these copying instructions from the readme.
+11. Commit the files.
+12. Set up your own remote and push.
 
 ### Setup
 Install postgres and pipenv if you haven't    
-Run scripts/setup.sh from the base directory of the project.    
-Run pipenv install --dev  
+Run `scripts/setup.sh` from the base directory of the project.    
+Run `pipenv install --dev`  
 
 ### Tests
 #### Running    
