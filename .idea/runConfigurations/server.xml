@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="server" type="Python.DjangoServer" factoryName="Django server">
-    <module name="base" />
+    <module name="$PROJECT_NAME$" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
@@ -10,7 +10,7 @@
     </envs>
     <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/bin/python" />
     <option name="WORKING_DIRECTORY" value="" />
-    <option name="IS_MODULE_SDK" value="true" />
+    <option name="IS_MODULE_SDK" value="false" />
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <EXTENSION ID="net.ashald.envfile">
