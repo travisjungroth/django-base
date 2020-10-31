@@ -4,17 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [requires]
-python_version = "3.8.3"
+python_version = "3.9.0"
 
 [dev-packages]
 pytest = "*"
-"pytest-cov" = "*"
-"pytest-django" = "*"
+pytest-cov = "*"
+pytest-django = "*"
 
 [packages]
-"dj-database-url" = "*"
+dj-database-url = "*"
 django = "*"
-"django-environ" = "*"
+django-environ = "*"
 gunicorn = "*"
-"psycopg2-binary" = "*"
+psycopg2-binary = "*"
 whitenoise = "*"

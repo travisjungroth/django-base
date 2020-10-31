@@ -7,7 +7,7 @@ jobs: # A basic unit of work in a run
     working_directory: ~/repo
     docker: # run the steps with Docker
       # CircleCI Python images available at: https://hub.docker.com/r/circleci/python/
-      - image: circleci/python:3.8.3
+      - image: circleci/python:3.9.0
         environment: # environment variables for primary container
           PIPENV_VENV_IN_PROJECT: true
           DATABASE_URL: postgresql://root@localhost/circle_test?sslmode=disable
