@@ -2,7 +2,6 @@ from os import path
 
 import environ
 
-
 ROOT = environ.Path(__file__).path('../' * 2)
 ENV = environ.Env(DJANGO_DEBUG=(bool, False), )
 if path.isfile(ROOT('.env')):
@@ -21,6 +20,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'debug_toolbar',
     'users',
 ]
 
@@ -40,6 +40,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'projectname.urls'
@@ -97,3 +98,8 @@ ALLOWED_HOSTS = ['*']
 STATIC_ROOT = ROOT('staticfiles')
 STATICFILES_DIRS = ['static']
 STATIC_URL = '/static/'
+
+# django_debug
+INTERNAL_IPS = [
+    '127.0.0.1',
+]
