@@ -25,6 +25,7 @@ jobs: # A basic unit of work in a run
           key: deps9-{{ .Branch }}-{{ checksum "Pipfile.lock" }}
       - run:
           command: |
+            python --version
             sudo pip install pipenv
             pipenv --python 3.9.0 install --dev
       - save_cache: # cache Python dependencies using checksum of Pipfile as the cache-key
