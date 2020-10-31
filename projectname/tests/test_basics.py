@@ -9,7 +9,7 @@ def test_true():
 
 @mark.django_db()
 def test_admin_response(client):
-    response = client.get('/admin/login/')
+    response = client.get("/admin/login/")
     assert response.status_code == 200
 
 

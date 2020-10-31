@@ -10,6 +10,8 @@ python_full_version = "3.9.0"
 pytest = "*"
 pytest-cov = "*"
 pytest-django = "*"
+bandit = "*"
+pre-commit = "*"
 
 [packages]
 dj-database-url = "*"
