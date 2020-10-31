@@ -26,6 +26,7 @@ jobs: # A basic unit of work in a run
       - run:
           command: |
             which python3
+            which python
             python --version
             sudo pip install pipenv
             pipenv --python 3.9.0 install --dev
