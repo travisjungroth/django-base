@@ -34,11 +34,11 @@
         },
         "django": {
             "hashes": [
-                "sha256:973c968e63518859732f018975364785dd96f0581b1e4b12e2a4b749415ac43a",
-                "sha256:cd6ec37db950a384dba3341b135394fdc776ede4d149fc7abde1e45a21ec4f22"
+                "sha256:0fabc786489af16ad87a8c170ba9d42bfd23f7b699bd5ef05675864e8d012859",
+                "sha256:72a4a5a136a214c39cf016ccdd6b69e2aa08c7479c66d93f3a9b5e4bb9d8a347"
             ],
             "index": "pypi",
-            "version": "==3.1.10"
+            "version": "==3.1.14"
         },
         "django-debug-toolbar": {
             "hashes": [
@@ -125,7 +125,7 @@
                 "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae",
                 "sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d"
             ],
-            "index": "pypi",
+            "markers": "python_version >= '3.5'",
             "version": "==0.4.2"
         },
         "whitenoise": {
